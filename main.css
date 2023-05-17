@@ -1,0 +1,10 @@
+:root{
+    --image-orientation-value: none;
+}
+code{
+    display: inline-block;
+    width: 100%;
+}
+.change-orientation{
+    image-orientation: var(--image-orientation-value);
+}
